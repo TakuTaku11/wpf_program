@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace wpf_TodoList
+﻿namespace wpf_TodoList
 {
     /// <summary>
     /// Todoアイテムクラス
@@ -17,7 +13,7 @@ namespace wpf_TodoList
         /// <summary>
         /// Todoテキストプロパティ
         /// </summary>
-        public string TodoText { get; set; }
+        public string TodoText { get; set; } = string.Empty;
 
         /// <summary>
         /// IsCompletedプロパティ

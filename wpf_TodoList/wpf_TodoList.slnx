@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="wpf_TodoList/wpf_TodoList.csproj" />
+  <Project Path="wpf_TodoListTests/wpf_TodoListTests.csproj" Id="cda58e9f-70f1-43ea-a201-e823610ec33d" />
 </Solution>
