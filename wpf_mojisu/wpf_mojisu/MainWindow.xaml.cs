@@ -17,6 +17,11 @@ namespace wpf_mojisu
     public partial class MainWindow : Window
     {
         /// <summary>
+        /// LetterCountクラスのインスタンス
+        /// </summary>
+        private readonly LetterCount letterCount = new();
+
+        /// <summary>
         /// コンストラクタ
         /// </summary>
         public MainWindow()
@@ -27,12 +32,13 @@ namespace wpf_mojisu
         /// <summary>
         /// 文字数チェックボタンクリックイベントハンドラ
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">イベントを発生させたオブジェクト</param>
+        /// <param name="e">イベントデータ</param>
         private void InputLengthCheckButton_Click(object sender, RoutedEventArgs e)
         {
             string inputText = InputText.Text;
-            int length = inputText.Length;
+
+            int length = letterCount.CountLetters(inputText);
 
             InputLengthLabel.Content = $"{inputText}は{length}文字です．";
             InputText.Clear();

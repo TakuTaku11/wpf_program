@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="wpf_mojisu/wpf_mojisu.csproj" />
+  <Project Path="wpf_mojisuTests/wpf_mojisuTests.csproj" Id="1c524c63-6d63-49f9-9a50-bde067efe9c6" />
 </Solution>
