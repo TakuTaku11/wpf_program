@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="wpf_counter/wpf_counter.csproj" />
+  <Project Path="wpf_counterTests/wpf_counterTests.csproj" />
+</Solution>
